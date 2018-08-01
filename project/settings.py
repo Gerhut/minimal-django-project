@@ -62,3 +62,12 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+
+# Django REST framework
+# http://www.django-rest-framework.org/api-guide/settings/
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (),
+    'UNAUTHENTICATED_USER': None,
+}

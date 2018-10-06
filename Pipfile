@@ -8,4 +8,4 @@ django = "*"
 djangorestframework = "*"
 
 [dev-packages]
-pylint = "*"
+"flake8" = "*"

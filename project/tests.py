@@ -1,7 +1,7 @@
 from django.test import TestCase, Client
 
-# Create your tests here.
-class ViewTestVase(TestCase):
+
+class ViewTestCase(TestCase):
     def test_views(self):
         client = Client()
         response = client.post('/', {"content": 'hello'})

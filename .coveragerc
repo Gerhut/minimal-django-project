@@ -1,4 +1,2 @@
 [run]
-source=
-    manage,
-    project
+source=project

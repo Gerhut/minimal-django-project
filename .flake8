@@ -1,4 +1,2 @@
 [flake8]
-exclude=.svn,CVS,.bzr,.hg,.git,__pycache__,.tox,
-    .venv,
-    migrations
+exclude=migrations
